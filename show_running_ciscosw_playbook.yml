@@ -1,6 +1,6 @@
 ---
 - name: SHOW RUNNING-CONFIG
-  hosts: CISCO-SW-VF
+  hosts: Cisco-test
   no_log: false
   gather_facts: false
   #  connection: local
