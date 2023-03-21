@@ -3,7 +3,7 @@
   hosts: MXDF-SW-19-1.despegar.it
   no_log: false
   gather_facts: false
-  #  connection: local
+  connection: ansible.netcommon.network_cli
 
   tasks:
           - name: DISPLAY THE RUNNING-CONFIG
