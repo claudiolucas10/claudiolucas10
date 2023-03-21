@@ -1,6 +1,6 @@
 ---
 - name: SHOW RUNNING-CONFIG
-  hosts: MXDF-SW-19-1.despegar.it
+  hosts: Cisco-test
   no_log: false
   gather_facts: false
   #connection: ansible.netcommon.network_cli
