@@ -1,6 +1,6 @@
 ---
 - name: SHOW RUNNING-CONFIG
-  hosts: Cisco-test
+  hosts: MXDF-SW-19-1.despegar.it
   no_log: false
   gather_facts: false
   #  connection: local
