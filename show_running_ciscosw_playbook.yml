@@ -3,7 +3,7 @@
   hosts: COVF-CAL-JPC-SW
   no_log: false
   gather_facts: false
-  ansible_connection: ansible.netcommon.network_cli
+  ansible_connection: network_cli
 
   tasks:
           - name: DISPLAY THE RUNNING-CONFIG
