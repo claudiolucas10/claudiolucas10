@@ -4,7 +4,6 @@
   no_log: false
   gather_facts: false
   connection: network_cli
-  network_os: ios
 
   tasks:
           - name: DISPLAY THE RUNNING-CONFIG
