@@ -1,6 +1,7 @@
 ---
 - name: SHOW RUNNING-CONFIG
-  hosts: COVF-CAL-JPC-SW
+  #hosts: COVF-CAL-JPC-SW
+  hosts: Cisco-test
   no_log: false
   gather_facts: false
   connection: network_cli
