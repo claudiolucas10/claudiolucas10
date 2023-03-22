@@ -15,7 +15,7 @@
           - name: SAVE OUTPUT TO ./backups-Cisco/
             debug: 
               #msg: "{{ config.stdout[0] }}"
-              msg: "Output: {{ some_script_result.stdout_lines }}
+              msg: "Output: {{ some_script_result.stdout_lines }}"
           #    dest: "192.168.91.130/etc/ansible/Project-Despegar/Playbooks/backups-Cisco/show_run-{{inventory_hostname}}-{{ lookup('pipe', 'date +%Y-%m-%d@%H:%M:%S') }}.txt"
           
           #- name: Print output to console
