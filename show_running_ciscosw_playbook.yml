@@ -19,7 +19,7 @@
           
           - name: Print output to console
             debug:
-            msg: "{{config.stdout}}"
+              msg: "{{config.stdout}}"
 
 
 
