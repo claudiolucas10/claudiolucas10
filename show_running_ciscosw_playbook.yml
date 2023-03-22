@@ -12,14 +12,14 @@
                             - show running-config
             register: config
 
-          #- name: SAVE OUTPUT TO ./backups-Cisco/
-          #  copy: 
-          #    content: "{{ config.stdout[0] }}"
+          - name: SAVE OUTPUT TO ./backups-Cisco/
+            copy: 
+              content: "{{ config.stdout[0] }}"
           #    dest: "/etc/ansible/Project-Despegar/Playbooks/backups-Cisco/show_run-{{inventory_hostname}}-{{ lookup('pipe', 'date +%Y-%m-%d@%H:%M:%S') }}.txt"
           
-          - name: Print output to console
-            debug:
-            msg: "{{command_output.stdout}}"
+          #- name: Print output to console
+          #  debug:
+          #  msg: "{{command_output.stdout}}"
 
 
 
